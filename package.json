@@ -1,6 +1,6 @@
 {
   "name": "@pomegranate/toposorter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Sorts Pomegranate framework plugins.",
   "main": "index.js",
   "scripts": {
