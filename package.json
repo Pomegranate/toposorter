@@ -1,0 +1,29 @@
+{
+  "name": "@pomegranate/toposorter",
+  "version": "0.0.0",
+  "description": "Sorts Pomegranate framework plugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test tap -R spec --cov test/unit/*.js",
+    "test:report": "NODE_ENV=test tap -R spec --cov --coverage-report=lcov test/unit/*.js",
+    "test:file": "NODE_ENV=test tap -R spec"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Pomegranate-structural"
+  ],
+  "author": "Jim <jim.b@paperelectron.com> (http://paperelectron.com/)",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib/",
+    "LICENCE",
+    "Readme.md"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "tap": "^11.0.1"
+  }
+}
